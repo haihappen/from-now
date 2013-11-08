@@ -22,8 +22,18 @@ Still unconvinced? Well, there lots of examples on the net, and you already witn
 
 ## Usage
 
+# Install via Bower.
+
 ```sh
 bower install from-now
+```
+
+# Include it together with moment.js and Angular.
+
+```html
+  <script src="moment.js"></script>
+  <script src="angular.js"></script>
+  <script src="from-now.js"></script>
 ```
 
 ## License (MIT, what else)
