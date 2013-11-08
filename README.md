@@ -38,6 +38,8 @@ Include it together with moment.js and Angular.
   <script src="from-now.js"></script>
 ```
 
+Be sure to check out the [index.html](https://rawgithub.com/haihappen/from-now/master/index.html) for a working example.
+
 ## License (MIT, what else)
 Copyright (C) 2013 Mario Uher
 
