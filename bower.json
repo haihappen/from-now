@@ -1,0 +1,26 @@
+{
+  "name": "from-now",
+  "version": "1.0.0",
+  "homepage": "https://github.com/haihappen/from-now",
+  "authors": [
+    "Mario Uher <uher.mario@gmail.com>"
+  ],
+  "description": "Relative dates powered by Angular and Moment.js",
+  "main": "from-now.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0",
+    "momentjs": "~2.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "sinon": "~1.7.0"
+  }
+}

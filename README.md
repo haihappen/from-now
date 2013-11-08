@@ -14,6 +14,8 @@ will result in
 <date datetime="2013-11-08T14:13:47.610Z" from-now>14 days ago</date>
 ```
 
+It will convert all absolute `date` elements into relative ones, just like the Rails `time_ago_in_words` helper.
+
 ### Faster?
 Yep, because you can render your Rails/whatever views once, and then **cache** them forever. This will boost your performance a lot!
 
@@ -22,13 +24,13 @@ Still unconvinced? Well, there lots of examples on the net, and you already witn
 
 ## Usage
 
-# Install via Bower.
+Install via Bower.
 
 ```sh
 bower install from-now
 ```
 
-# Include it together with moment.js and Angular.
+Include it together with moment.js and Angular.
 
 ```html
   <script src="moment.js"></script>
